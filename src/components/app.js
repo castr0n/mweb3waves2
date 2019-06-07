@@ -25,13 +25,14 @@ class App extends React.Component {
     render() {
         return (
             <div className="container">
-                <input className="btn btn-primary" type="submit" value="Auth" onClick={this.authFunc}/>
-            </div>
+    		    <input className="btn btn-primary" type="submit" value="Auth" onClick={this.authFunc}/>
+    	    </div>
         )
     }
 }
 
 const app = document.getElementById('app');
-if(app){
+
+if (app) {
     ReactDOM.render(<App/>, app);
 }
