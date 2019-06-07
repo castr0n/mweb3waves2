@@ -35,4 +35,4 @@ const app = document.getElementById('app');
 
 if (app) {
     ReactDOM.render(<App/>, app);
-}
+} 
